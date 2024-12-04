@@ -1,0 +1,31 @@
+{
+    "keyboard_name": "Y65",
+    "manufacturer": "xiyaowong",
+    "url": "",
+    "maintainer": "xiyaowong",
+    "usb": {
+      "vid": "0x0123",
+      "pid": "0x0456",
+      "device_version": "1.0.0"
+    },
+    "processor": "atmega32u4",
+    "bootloader": "caterina",
+    "build": {
+      "lto": true
+    },
+    "features": {
+      "grave_esc": false,
+      "magic": false,
+      "space_cadet": false
+    },
+    "split":{
+        "enabled": true
+    },
+    "layouts": {
+        "LAYOUT_test": {
+            "layout": [
+                { "matrix": [4, 0], "x": 0, "y": 0 }
+            ]
+        }
+    }
+  }
