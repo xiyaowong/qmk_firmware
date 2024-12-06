@@ -1,7 +1,7 @@
 #pragma once
 
 #define USE_I2C
-#define SOFT_SERIAL_PIN D0
+#define SPLIT_USB_DETECT // Important!!!
 
 #define MATRIX_ROWS 10
 #define MATRIX_COLS 8
